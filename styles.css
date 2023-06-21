@@ -19,7 +19,7 @@
     display: flex;
     align-items: center;
     padding-left: 10%;
-    padding-top: 10%;
+    padding-top: 6%;
 }
 
 
@@ -29,19 +29,19 @@
 }
 
 .creative{
-    padding-left: 6%;
-    width: 200px;
-    height: 100px;
+    padding-left: 4%;
+    width: 150px;
+    height: 40px;
 }
 
 .developer{
     width: 600px;
-    height: 500px;
+    height: 300px;
 }
 
 .text1 {
     text-align: right;
-    padding-left: 10%;
+    padding-left: 40%;
 }
   
 
@@ -78,96 +78,6 @@
     font-family:  'Poppins', sans-serif;
     font-size: 40px;
     color: #272727;
-}
-
-
-
- 
-.typing {
-    animation: typing-effect 5s steps(20, end);
-    overflow: hidden;
-    white-space: nowrap;
-    font-size: 24px;
-    border-right: 2px solid;
-    padding-right: 8px;
-  }
-  
-@keyframes typing-effect {
-from {
-    width: 0;
-}
-to {
-    width: 100%;
-}
-}
-
-
-.aayushkapic {
-    height: 80vh;
-    display: block;
-    margin: 0 auto;
-}
-
-.image img:hover {
-    transform: scaleX(-1);
-  }
-
-.aboutmecontainer {
-    display: grid;
-    place-items: center;
-    height: 10vh;
-    margin: 2rem;
-}
-
-
-h1 {
-font-family: 'Montserrat', sans-serif;
-font-size: clamp(2rem, 2vw, 2rem);
-padding-left: 500px;
-color: black;
-padding: 0rem clamp(1rem, 2vw, 3rem);
-border-radius: clamp(0.4rem, 0.75vw, 1rem);
-}
-
-
-h1:hover {
-background-color: white;
-color: #a15638;
-}
-
-
-
-
-.buttoncontainer {
-    padding-left: 43%;
-    padding-top: 3%;
-    padding-right: 40%;
-    padding-bottom: 2%;
-    text-decoration: none;
-}
-
-.button1{
-    display:inline-block;
-    padding:0.35em 1.2em;
-    border:0.1em solid black;
-    margin:0 0.5em 0.5em 0;
-    border-radius:100em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Montserrat',sans-serif;
-    font-weight:500;
-    font-size: 20px;
-    color:black;
-    text-align:center;
-    transition: all 0.2s;
-}
-
-.button1:hover{
-    color: white;
-    background-color: rgb(58, 40, 40);
-    border-color: rgb(58, 40, 40);
-    border-radius: 2em;
-    text-decoration:none;
 }
 
 
